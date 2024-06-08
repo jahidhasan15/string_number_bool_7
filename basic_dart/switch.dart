@@ -3,7 +3,7 @@ import 'package:test/expect.dart';
 void main() {
   int day=8;
 
-    /*if(day == 1) {
+    if(day == 1) {
     print('Saturday');
   } else if(day == 2){
     print('sunday');
@@ -19,7 +19,7 @@ void main() {
     print('friday');
   } else{
     print('envalid day');
-  }*/
+  }
 
   switch(day) {
     case 1:

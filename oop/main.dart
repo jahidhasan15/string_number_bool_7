@@ -17,7 +17,7 @@ void main() {
   print(Monitor.data);
   print(Monitor.getsempledata());
 
-  Person info =Person(name: 'jahid', address: 'gazipur', age: 20);
+  Person info =Person('jahid', 'Dhaka', 20);
   info.printname();
 
 }
