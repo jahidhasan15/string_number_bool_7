@@ -1,8 +1,9 @@
 import 'class_obj.dart';
+import 'getter_setter.dart';
 import 'person.dart';
 
 void main() {
-  Monitor mymonitor = Monitor('Apple','Air');
+ /* Monitor mymonitor = Monitor('Apple','Air');
   //print(mymonitor.Compnayname);
   //print(mymonitor.model);
   mymonitor.printmodelname();
@@ -18,6 +19,11 @@ void main() {
   print(Monitor.getsempledata());
 
   Person info =Person('jahid', 'Dhaka', 20);
-  info.printname();
+  info.printname();*/
+  Worker rifat =Worker();
+  rifat.company;
+  rifat.designation;
+  print(rifat.salary);
+  print(rifat.salary=2000);
 
 }
